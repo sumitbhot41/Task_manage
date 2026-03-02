@@ -18,3 +18,18 @@
 - File Handling / Database (if used)
 - VS Code
 - Git & GitHub
+
+
+
+Architecture
+Client (curl / browser / frontend)
+        ↓
+HTTP Request (GET, POST, PUT, DELETE)
+        ↓
+Flask API Server
+        ↓
+Business Logic (Task handling)
+        ↓
+Data Storage (Currently memory list)
+        ↓
+JSON Response
